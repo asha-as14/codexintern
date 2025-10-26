@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding: 50px; }
+        h1, h2, h3 { color: #333; }
+        a { text-decoration: none; color: #007BFF; }
+    </style>
+</head>
+<body>
+    <h1>Sentiment Analysis Result</h1>
+    <h2>Text: </h2>
+    <p>{{ text }}</p>
+    <h2>Sentiment: <strong>{{ sentiment }}</strong></h2>
+    <h3>Polarity Score: {{ polarity }}</h3>
+    <h3>Subjectivity Score: {{ subjectivity }}</h3>
+    <br>
+    <a href="/">Analyze Another Text</a>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; padding: 50px; }
+        textarea { width: 50%; height: 150px; }
+        input[type="submit"] { padding: 10px 20px; font-size: 16px; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <form action="/analyze" method="post">
+        <textarea name="text" placeholder="Enter text here..." required></textarea><br><br>
+        <input type="submit" value="Analyze">
+    </form>
+</body>
+</html>
